@@ -4,10 +4,12 @@
    		<xsd:complexType>
 			<xsd:sequence>		
       				<xsd:element name="User" minOccurs = "0" maxOccurs = "unbounded"/>
-				<xsd:complexType>
-					<xsd:attribute name="Username" type="xsd:string" use="required"/>
-					<xsd:attribute name="Password" type="xsd:string" use="required"/>
-				<xsd:complexType/>
+				
+					<xsd:sequence>
+					<xsd:element name="Username" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element name="Password" minOccurs="0" maxOccurs="unbounded"/>
+					</xsd:sequence>
+				
    		 	</xsd:sequence>
     		</xsd:complexType>
 	</xsd:element>
