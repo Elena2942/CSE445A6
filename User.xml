@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding = "utf-8"?>
-  <Users>
+<Users>
     <User>
     <Username>Jane Doe</Username>
     <Password>Password123!</Password>
     </User>
-  </Users>
+</Users>
